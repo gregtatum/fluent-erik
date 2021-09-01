@@ -15,6 +15,9 @@
   },
   "author": "Greg Tatum",
   "license": "MIT",
+  "browserslist": [
+    "since 2019-01"
+  ],
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
@@ -63,6 +66,8 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "@fluent/bundle": "^0.16.1",
+    "@fluent/dom": "^0.7.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
